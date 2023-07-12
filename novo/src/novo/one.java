@@ -32,6 +32,10 @@ public class one {
 	       }
 	       String ternario=age < 18?"não pode":"pode";//operador ternario
 	       System.out.println(ternario);
+	       String nome="cleber";
+	       int idade=32;
+	       String mensagem = "%s tem %d anos".formatted(nome, idade);
+	       System.out.println(mensagem);//interpolaçao
 	    }
 
 	}
