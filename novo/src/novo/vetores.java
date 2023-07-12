@@ -17,9 +17,15 @@ public class vetores {
 		lista.add('b');
 		lista.add('c');
 		lista.remove(2);//remove por index
-		System.out.println(lista);
+		lista.forEach(letras->System.out.println(letras));//lambda
 		int[][] matriz=new int[4][4];//matrizes
 		System.out.println(matriz);
+		List<Integer>numbers=new ArrayList<>();
+		numbers.add(10);
+		numbers.add(20);
+		numbers.add(30);
+		numbers.forEach(System.out::println);
+		
 		
 		
 		

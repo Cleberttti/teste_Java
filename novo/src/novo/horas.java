@@ -21,6 +21,17 @@ public class horas {
 		System.out.println(d3);
 		System.out.println(d5);
 		System.out.println(d6);
+		enumeraçoens dia1=enumeraçoens.QUARTA_FEIRA;//enum
+		System.out.println(dia1);
+		NewProject p01= new NewProject("rei",2023,"DRAMA","FILME",(long) 800.000);
+		System.out.println(p01);
+		
+		filme f1=new NewProject("g",2022,"comedia","serie",(long) 1.000);//upcasting
+		System.out.println(f1);
+		veiculos v1=new veiculos("moto","honda","cg",100);
+		v1.ligar_turbo();
+		v1.desligar_turbo();
+		System.out.print(v1);
 		
 	}
 
