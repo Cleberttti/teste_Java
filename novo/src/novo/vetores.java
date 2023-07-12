@@ -24,7 +24,7 @@ public class vetores {
 		numbers.add(10);
 		numbers.add(20);
 		numbers.add(30);
-		numbers.forEach(System.out::println);
+		numbers.forEach(System.out::println);//method reference
 		
 		
 		
